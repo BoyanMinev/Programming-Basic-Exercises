@@ -1,0 +1,18 @@
+package L05WhileLoop.MoreExercises;
+
+import java.util.Scanner;
+
+public class P04NumbersDividedby3WithoutReminder {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+
+        for (int i = 3; i <=100; i+=3) {
+
+            System.out.println(i);
+
+
+            
+        }
+    }
+}
