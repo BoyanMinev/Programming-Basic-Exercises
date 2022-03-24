@@ -1,4 +1,4 @@
-package Lecture_04_StreamsFilesAndDirectories;
+package Lecture_04_StreamsFilesAndDirectories.Lab;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -15,7 +15,7 @@ public class CopyBytes {
 
         FileInputStream inputStream = new FileInputStream(path);
 
-        String outPath = "C:\\Users\\minev\\OneDrive\\Desktop\\Example";
+        String outPath = "C:\\Users\\minev\\OneDrive\\Desktop\\ListFiles";
         FileOutputStream outputStream = new FileOutputStream( outPath + "\\" + "out-as-bytes.txt");
         int value = inputStream.read();
         PrintStream out = new PrintStream(outputStream);

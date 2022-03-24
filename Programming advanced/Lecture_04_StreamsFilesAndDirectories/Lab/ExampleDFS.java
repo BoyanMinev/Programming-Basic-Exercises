@@ -1,4 +1,4 @@
-package Lecture_04_StreamsFilesAndDirectories;
+package Lecture_04_StreamsFilesAndDirectories.Lab;
 
 import java.io.File;
 import java.io.IOException;
@@ -12,6 +12,8 @@ public class ExampleDFS {
         Path path = Paths.get("C:\\Users\\minev\\OneDrive\\Desktop\\SoftUni\\Advanced - september\\Lecture_04_Streams-Files-And-Directories\\Lab\\04. Java-Advanced-Files-and-Streams-Lab-Resources");
 
         File root = path.toFile();
+
+
 
         dfs(root);
     }

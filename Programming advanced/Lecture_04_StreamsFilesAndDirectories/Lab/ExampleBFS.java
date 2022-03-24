@@ -1,4 +1,4 @@
-package Lecture_04_StreamsFilesAndDirectories;
+package Lecture_04_StreamsFilesAndDirectories.Lab;
 
 import java.io.File;
 import java.nio.file.Path;
